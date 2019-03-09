@@ -1,0 +1,28 @@
+.mydiv
+{
+	width:150px;
+	height:150px;
+	background-color:green;
+	-webkit-animation-name:mahedy;
+	animation-name:mahedy;
+	-webkit-animation-duration:3s;
+	animation-duration:3s;
+	-webkit-animation-iteration-count:3;
+	animation-iteration-count:3;
+}
+@-webkit-keyframes mahedy{
+	from{
+		background-color:green
+	}
+	to{
+		background-color:red;border-radius:50%;
+	}
+}
+@keyframes mahedy{
+	from{
+		background-color:green
+	}
+	to{
+		background-color:red;border-radius:50%;
+	}
+}
